@@ -53,7 +53,7 @@ export default function Home() {
                     className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50"
                     onClick={() => setSelectedImage(null)}
                 >
-                    <img
+                    <Image
                         src={selectedImage}
                         alt="Full size"
                         className="max-w-4xl max-h-screen"

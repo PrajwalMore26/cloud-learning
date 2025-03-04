@@ -18,7 +18,7 @@ export async function POST(req: Request) {
     try {
         await blob.save(buffer);
         return NextResponse.json({ success: true });
-    } catch (err) {
+    } catch {
         return NextResponse.json({ error: "Upload failed" }, { status: 500 });
     }
 }
