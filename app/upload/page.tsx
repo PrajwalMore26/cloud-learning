@@ -19,7 +19,7 @@ export default function UploadPage() {
                 headers: { "Content-Type": "multipart/form-data" },
             });
             alert("Uploaded!");
-        } catch (err) {
+        } catch {
             alert("Upload failed");
         }
     };
