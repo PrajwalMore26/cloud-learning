@@ -7,5 +7,5 @@ export const storage = new Storage({
   keyFilename: path.resolve(process.cwd(), process.env.GOOGLE_APPLICATION_CREDENTIALS || ''),
 });
 
-export const bucket = storage.bucket(process.env.GCP_BUCKET_NAME ||'');
+export const bucket = storage.bucket('praj-image-learning');
 
