@@ -55,8 +55,9 @@ export default function Home() {
                 >
                     <Image
                         src={selectedImage}
-                        alt="Full size"
-                        className="max-w-4xl max-h-screen"
+                        alt="Uploaded Image"
+                        fill
+                        style={{ objectFit: "cover" }}
                     />
                 </div>
             )}
